@@ -32,7 +32,7 @@ def get_csv_sql(connection_string,query,out_filename):
     return SQL_data.to_csv(('{}.csv'.format(out_filename)), encoding='utf-8', index=False)
 
 #Reading csv file 
-RAW_DF = pd.read_csv('sobook.csv', index_col=0)
+RAW_DF = pd.read_csv('C:\Users\peter.vini\Desktop\python\Pandas-analysis\sobook.csv', index_col=0)
 RAW_DF.head()
 
 #blablablabab
