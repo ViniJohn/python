@@ -35,3 +35,5 @@ def get_csv_sql(connection_string,query,out_filename):
 RAW_DF = pd.read_csv('sobook.csv', index_col=0)
 RAW_DF.head()
 
+#blablablabab
+
