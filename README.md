@@ -1,3 +1,3 @@
 # python
-To use the code snipptes please install the required lybraires litsted in "requirements.txt" file 
-run it in the environment terminal "python -m pip install -r requirments.txt" 
+To use the code snipptes please install the required lybraires litsted in "requirements.txt" file.
+Run "python -m pip install -r requirments.txt"  in the environment terminal 
