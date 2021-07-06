@@ -64,7 +64,8 @@ class BsTree:
         return curr.Rvalue
 
     def _delete(self,del_val):
-        pass
+        if del_val == self.Rvalue:
+            pass
 
             
 
