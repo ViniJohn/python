@@ -50,7 +50,7 @@ class App(tk.Frame):
         '''
         if self.plan.get():
             config_section = 'excel'
-            path   = self.config_read('config_section')['path']
+            path   = self.config_read(config_section)['path']
             plans  = [self.config_read(config_section)['excel1'],self.config_read(config_section)['excel2']]        
             for excel,module in plans:
                 excel_path = path +'\\'+list(filter(lambda x: excel in x, os.listdir(path)))[0]
